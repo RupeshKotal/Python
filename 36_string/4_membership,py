@@ -1,0 +1,27 @@
+text = "pYthon"
+
+print("P" in text)
+print("p" in text)
+
+
+#find vowels
+
+total = 0
+
+# for char in text:
+#     if (char == "a" or
+#     char == "e" or
+#     char == "i" or
+#     char == "o" or
+#     char == "u" ):
+#         total += 1
+
+# print(total)
+
+for char in text:
+    if char in "aeiou":
+        total += 1
+
+print(total)
+
+        
